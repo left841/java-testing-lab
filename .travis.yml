@@ -1,0 +1,11 @@
+language: java
+
+matrix:
+  include:
+    - os: linux
+
+script:
+- mvn test
+
+notifications:
+  email: false
